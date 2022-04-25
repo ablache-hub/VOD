@@ -1,0 +1,19 @@
+exports[`omdb.js  'getTopMoviesBy' doit retourner le top des films du plus grand au plus petit en fonction de la clé et du type de la valeur à traiter getTopMoviesBy(movies, 'Metascore') 1`] = `
+Array [
+  "Black Panther",
+  "Spider-Man 2",
+  "Iron Man",
+  "Avengers: Endgame",
+  "Logan",
+]
+`;
+
+exports[`omdb.js  'getTopMoviesBy' doit retourner le top des films du plus grand au plus petit en fonction de la clé et du type de la valeur à traiter getTopMoviesBy(movies, 'imdbRating') 1`] = `
+Array [
+  "Spider-Man: No Way Home",
+  "Avengers: Infinity War",
+  "Avengers: Endgame",
+  "The Avengers",
+  "Guardians of the Galaxy",
+]
+`;

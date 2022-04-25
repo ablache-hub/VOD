@@ -1,0 +1,27 @@
+{
+  "name": "ecn-wiztivi-22",
+  "version": "1.0.0",
+  "description": "```js /**  * Récupérer une liste de film avec l'API TMDB  * Créer un tableau contenant tous les titres de cette collection  * Grâce à ce tableau de titre, rechercher chacun des films sur omdb et placer l'ensemble dans un nouveau tableau",
+  "main": "./src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/davidlandais/ecn-wiztivi-22.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/davidlandais/ecn-wiztivi-22/issues"
+  },
+  "homepage": "https://gitlab.com/davidlandais/ecn-wiztivi-22#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "express": "^4.17.3",
+    "node-fetch": "^3.2.3"
+  }
+}
